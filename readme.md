@@ -29,7 +29,7 @@ When register Custom Post Types, use svg references in ``menu_icon``, ex:
 			'menu_icon' => plugins_url('admin-octicons/bower_components/octicons/svg/octoface.svg')
 	..
 
-Result:
+Result, a stylish Octocat:
 
 ![Screenshot](https://raw.github.com/urre/admin-octicons/master/screenshot-1.jpg)
 
