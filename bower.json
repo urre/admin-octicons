@@ -1,0 +1,25 @@
+{
+  "name": "Admin Octicons",
+  "version": "1.0.0",
+  "authors": [
+    "Urban Sanden <hej@urre.me>"
+  ],
+  "description": "Use Github Octicons in WordPress admin",
+  "keywords": [
+    "icons",
+    "octicons",
+    "wordpress",
+    "wpadmin"
+  ],
+  "license": "GLP2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "octicons": "~2.2.3"
+  }
+}
