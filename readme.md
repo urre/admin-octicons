@@ -23,7 +23,7 @@ As an alternative to [Dashicons](https://developer.wordpress.org/resource/dashic
 When register Custom Post Types, use svg references in ``menu_icon``, ex:
 	
 	..
-	register_post_type( 'case',
+	register_post_type( 'issues',
 	   array(
 	       'capability_type' => 'post',
 			'menu_icon' => plugins_url('admin-octicons/bower_components/octicons/svg/octoface.svg')
@@ -31,7 +31,7 @@ When register Custom Post Types, use svg references in ``menu_icon``, ex:
 
 Result:
 
-![Screenshot](https://raw.github.com/urre/admin-octicons/master/screenshot-2.jpg)
+![Screenshot](https://raw.github.com/urre/admin-octicons/master/screenshot-1.jpg)
 
 ### CSS
 
@@ -41,7 +41,7 @@ When using css to replace existing menu icons:
 		...
 	}
 
-Replace ``{menu_slug}`` with the menu item you would like to change, ex media (upload)
+Replace ``{menu_slug}`` with the menu item you would like to change, here for example replace icon for Media (upload):
 
 	#adminmenu #toplevel_page_upload div.wp-menu-image:before {
 	    display: inline-block;
@@ -55,7 +55,7 @@ Replace ``{menu_slug}`` with the menu item you would like to change, ex media (u
 
 Result:
 
-![Screenshot](https://raw.github.com/urre/admin-octicons/master/screenshot-1.jpg)
+![Screenshot](https://raw.github.com/urre/admin-octicons/master/screenshot-2.jpg)
 
 ## Reference
 
