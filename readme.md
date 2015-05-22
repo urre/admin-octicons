@@ -1,6 +1,6 @@
 # Admin Octicons
 
-![Screenshot](https://raw.github.com/urre/admin-octicons/master/screenshot-3.png)
+![Screenshot](https://raw.github.com/urre/admin-octicons/master/screenshot-3.jpg)
 
 As an alternative to [Dashicons](https://developer.wordpress.org/resource/dashicons/), now with this plugin you can use the great [Github Octicons](https://octicons.github.com/) anywhere in wp-admin.)
 
@@ -31,7 +31,7 @@ When register Custom Post Types, change ``menu_icon`` to ex:
 
 Result:
 
-![Screenshot](https://raw.github.com/urre/admin-octicons/master/screenshot-2.png)
+![Screenshot](https://raw.github.com/urre/admin-octicons/master/screenshot-2.jpg)
 
 ### CSS
 
@@ -55,7 +55,7 @@ Replace ``{menu_slug}`` with the menu item you would like to change, ex media (u
 
 Result:
 
-![Screenshot](https://raw.github.com/urre/admin-octicons/master/screenshot-1.png)
+![Screenshot](https://raw.github.com/urre/admin-octicons/master/screenshot-1.jpg)
 
 
 ## Reference
