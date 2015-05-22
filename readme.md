@@ -18,9 +18,9 @@ As an alternative to [Dashicons](https://developer.wordpress.org/resource/dashic
 
 ## Usage
 
-### ```menu_icon``
+### ``menu_icon``
 
-When register Custom Post Types, change ``menu_icon`` to ex:
+When register Custom Post Types, use svg references in ``menu_icon``, ex:
 	
 	..
 	register_post_type( 'case',
@@ -38,7 +38,7 @@ Result:
 When using css to replace existing menu icons:
 
 	#adminmenu #toplevel_page_{menu-slug} div.wp-menu-image {
-
+		...
 	}
 
 Replace ``{menu_slug}`` with the menu item you would like to change, ex media (upload)
@@ -56,7 +56,6 @@ Replace ``{menu_slug}`` with the menu item you would like to change, ex media (u
 Result:
 
 ![Screenshot](https://raw.github.com/urre/admin-octicons/master/screenshot-1.jpg)
-
 
 ## Reference
 
