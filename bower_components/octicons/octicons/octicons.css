@@ -8,33 +8,6 @@
   font-style: normal;
 }
 
-#adminmenu .wp-menu-image img {
-  color: #999;
-  display: inline-block;
-  width: 18px;
-  height: 18px;
-  opacity: .4;
-}
-
-#adminmenu li.menu-top:hover .wp-menu-image img, 
-#adminmenu li.wp-has-current-submenu .wp-menu-image img {
-  color: #999;
-  opacity: .4;
-}
-
-/*#adminmenu #toplevel_page_{menu-slug} div.wp-menu-image {}*/
-
-
-#adminmenu #toplevel_page_upload div.wp-menu-image:before {
-    display: inline-block;
-    content: '';
-    opacity: .4;
-    background: url('../svg/eye.svg') no-repeat center center;
-    background-size: 18px 18px;
-    width: 18px;
-    height: 18px;   
-}
-
 /*
 
 .octicon is optimized for 16px.

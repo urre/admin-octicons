@@ -37,7 +37,8 @@ class AdminOcticons {
 
     public function register_admin_styles() {
 
-         wp_enqueue_style( 'AdminOcticons-plugin-styles', plugins_url( 'admin-octicons/bower_components/octicons/octicons/octicons.css' ) );
+         wp_enqueue_style( 'AdminOcticons-octicons', plugins_url( 'admin-octicons/bower_components/octicons/octicons/octicons.css' ) );
+         wp_enqueue_style( 'AdminOcticons-plugin-styles', plugins_url( 'admin-octicons/css/admin-octicons.css' ) );
 
     }
 

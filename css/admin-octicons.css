@@ -1,0 +1,13 @@
+#adminmenu .wp-menu-image img {
+  color: #999;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  opacity: .4;
+}
+
+#adminmenu li.menu-top:hover .wp-menu-image img, 
+#adminmenu li.wp-has-current-submenu .wp-menu-image img {
+  color: #999;
+  opacity: .4;
+}
