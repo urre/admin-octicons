@@ -1,9 +1,9 @@
 === Admin Dashicons ===
 Contributors: urre
-Donate link: http://urre.me/donate
+Donate link: https://www.paypal.me/urbansanden
 Tags: icons, octicons, dashicons, admin, wpadmin, menu icon
 Requires at least: 3.0
-Tested up to: 4.2.2
+Tested up to: 4.6.1
 Stable tag: 1.0.0
 
 As an alternative to Dashicons now with this plugin you can use the great Github Octicons anywhere in wp-admin.)
